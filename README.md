@@ -22,6 +22,8 @@ Activated session and update paystack_public_key and paystack_secret_keys.
 
 WordPress might not allow direct access to files for security reasons. In your .htaccess file, make sure you are not blocking access to this file.
 
+![htaccess placement](/assets/img/htaccess.jpeg)
+
 ```
 <Files "update-session-keys.php">
     Order Allow,Deny
@@ -37,6 +39,8 @@ WordPress might not allow direct access to files for security reasons. In your .
 ```
 
 Just immeditiately after the declaration of global `$this->public_key=` and `$this->serete_key=`, add the following lines.
+
+![class-wc-geteway-paystack placement](/assets/img/class-wc-geteway-paystack.jpeg)
 
 ```php
 // START: Added custom multiple store key switches
