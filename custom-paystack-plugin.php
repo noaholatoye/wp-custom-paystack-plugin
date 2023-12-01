@@ -3,7 +3,8 @@
 Plugin Name: Custom Paystack Plugin
 Description: Dynamically change Paystack secret key based on selected store.
 Version: 1.0
-Author: Noah Olatoye
+Author: <a href="https://twitter.com/noaholatoye" target="blank" rel="noreferrer">Noah Olatoye</a> | <a href="https://github.com/noaholatoye/wp-custom-paystack-plugin" target="blank" rel="noreferrer">View Details</a>
+
 */
 
 // Hook to add custom actions when WooCommerce initializes
