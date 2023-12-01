@@ -35,7 +35,7 @@ WordPress might not allow direct access to files for security reasons. In your .
 ## Updated paystack official plugin file.
 
 ```
-/plugins/woo-paystack/class-wc-geteway-paystack.php
+/plugins/woo-paystack/includes/class-wc-geteway-paystack.php
 ```
 
 Just immeditiately after the declaration of global `$this->public_key=` and `$this->serete_key=`, add the following lines.
